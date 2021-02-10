@@ -14,7 +14,7 @@ The design is based on a follow along tutorial of CodingNepal. If you like it yo
 - Javascript
 
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/GraceOyiza/Portfolio/a0dad8fa52aeafeac8714f40bc3c26a149f742b1/index.html)
+[Live Demo Link](https://rawcdn.githack.com/GraceOyiza/Portfolio/d8e55bbaee7dc5f3ee755f6787389042c8ab1706/index.html)
 
 ## Getting Started
 - Clone this repo
