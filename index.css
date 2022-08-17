@@ -254,13 +254,11 @@ html {
   content: "what i provide";
 }
 
-#sub-show {
+.hidden {
   display: none;
 }
 
-#read-more {
-  display: none;
-}
+
 
 .services .serv-content.card {
   background: #222;

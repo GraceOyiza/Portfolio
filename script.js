@@ -45,23 +45,28 @@ var typed = new Typed(".typing2",{
     loop: true
 });
 
-function myFunction() {
-   var x = document.querySelector('#subshow');
-   if (x.style.display === "none") {
-     x.style.display = "block";
-   } else {
-     x.style.display = "none";
-   }
+// function myFunction() {
+//    var readmore = document.querySelector('#subshow');
+//    if (readmore.style.display === "none") {
+//      readmore.style.display = "block";
+//    } else {
+//      readmore.style.display = "none";
+//    }
+//  }
+
+
+   const readMores = document.querySelectorAll('.read-more-btn');
+    readMores.forEach(function(btn) {
+      btn.addEventListener("click",readMoreEventHandler)
+
+    })
+
+ function readMoreEventHandler({target}) {
+  const elementDisplay = document.querySelector(`#${target.dataset.id}`)
+    target.classList.toggle("hidden");
+    elementDisplay.classList.toggle('hidden');
+  
+ 
+   
  }
 
-
-
-
- function myFunction() {
-   var x = document.querySelector('#read-more, #sub-show');
-   if (x.style.display === "none") {
-     x.style.display = "block";
-   } else {
-     x.style.display = "none";
-   }
- }
