@@ -5,7 +5,8 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  overflow: hidden;
+
+  /* overflow: hidden; */
 }
 
 html {
@@ -253,7 +254,7 @@ html {
   content: "what i provide";
 }
 
-#subshow {
+#sub-show {
   display: none;
 }
 
@@ -283,9 +284,9 @@ html {
 .services .serv-content .card .text {
   width: 70%;
   text-align: center;
-  margin: 0 auto;
   font-size: 15px;
-  padding: 20px 0;
+  padding: 90px;
+  margin-top: 90px;
 }
 
 .services .serv-content .card .box {
@@ -334,10 +335,12 @@ html {
 .services .serv-content .card .box img {
   width: 100%;
   object-fit: contain;
+  margin-top: 28px;
 }
 
 .services .serv-content .card .box {
   display: flex;
+  align-items: center;
 }
 
 .prj-info {
@@ -351,13 +354,20 @@ html {
   object-fit: contain;
 }
 
+#special {
+  margin-top: 3px;
+}
+
+/* #special-text {
+  margin-bottom: 20px;
+} */
 button {
   display: inline-block;
   background: crimson;
   color: #fff;
   font-size: 18px;
   padding: 8px 16px;
-  margin-top: 20px;
+  margin-top: 0;
   border-radius: 6px;
   border: 2px solid crimson;
   transition: all 0.3s ease;
@@ -858,6 +868,9 @@ footer span a:hover {
 
   .home .home-content .text-3 {
     font-size: 18px;
- 
+  }
+
+  * {
+    overflow: hidden;
   }
 }

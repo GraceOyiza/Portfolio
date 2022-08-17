@@ -55,8 +55,10 @@ function myFunction() {
  }
 
 
+
+
  function myFunction() {
-   var x = document.querySelector('#read-more');
+   var x = document.querySelector('#read-more, #sub-show');
    if (x.style.display === "none") {
      x.style.display = "block";
    } else {
