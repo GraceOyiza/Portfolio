@@ -258,6 +258,10 @@ html {
   display: none;
 }
 
+.read-more-btn {
+  margin-top: 25px;
+  cursor: pointer;
+}
 
 
 .services .serv-content.card {
